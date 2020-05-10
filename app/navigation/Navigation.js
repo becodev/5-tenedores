@@ -1,8 +1,6 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { createStackNavigator } from "@react-navigation/stack";
-import { MaterialCommunityIcons } from "react-native-vector-icons";
 import { Icon } from "react-native-elements";
 import AccountStack from "./AccountStack";
 import RestaurantsStack from "./RestaurantsStack";
